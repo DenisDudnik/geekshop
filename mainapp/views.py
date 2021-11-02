@@ -5,7 +5,6 @@ from django.utils import timezone
 from .models import Product, ProductCategory
 
 
-
 def main(request):
     title = "главная"
     products = Product.objects.all()
