@@ -206,6 +206,7 @@ if DEBUG:
     INSTALLED_APPS.extend([
         "debug_toolbar",
         "template_profiler_panel",
+        "django_extensions",
     ])
 
 
@@ -242,3 +243,4 @@ if DEBUG:
         "template_profiler_panel.panels.template.TemplateProfilerPanel",
     ]
 # <--- Django Debug Toolbars
+
